@@ -1,3 +1,4 @@
+// data array dari kumpulan khodams 2024-2050 yang gege abies
 const khodams = [
     { name: "Macan Pemarah", desc: "Macan Pemarah tuh bawaannya pengen nyerang mulu, tapi gitu-gitu lucu juga. tapi kadang kadang, kiding kiding... au ah" },
     { name: "Buaya Sunda", desc: "Buaya Sunda, matanya bisa bikin kamu ngerasa di bawah tekanan terus. tiati dah, lu tipe orang yang suka sama semua orang... dih jadi ngeri gua" },
@@ -16,7 +17,7 @@ const khodams = [
     { name: "Penjaga Kulkas", desc: "Si Penjaga Kulkas ini selalu siap nemenin dia nyemil ampe tengah malam. padahal lu cuma jadi badutnya doang. yaelah, effort lu sia sia bang.." },
 ];
 
-        function showNotification(message) {
+        function showNotification(message) { // memunculkan isi notif
             const notification = document.getElementById('notification');
             notification.textContent = message;
             notification.style.display = 'block';
@@ -26,20 +27,21 @@ const khodams = [
             }, 2000);
         }
 
-        function startGacha() {
+        function startGacha() { // buat mulai gacha
             const nameInput = document.getElementById('name').value.trim();
-            if (nameInput === "") {
-                showNotification("Silakan masukkan namamu!");
+            if (nameInput === "") { // kondisi kalo misalnya user blm nambahin nama (string)
+                showNotification("Woi, tulis dulu nama lu disituu..");
                 return;
             }
 
-            document.getElementById('loading').style.display = 'block';
-            document.getElementById('overlay').classList.add('active');
+            document.getElementById('loading').style.display = 'block'; // ngeblock se isi layar
+            document.getElementById('overlay').classList.add('active'); // munculin overlaynya
 
             setTimeout(() => {
-                document.getElementById('loading').style.display = 'none';
+                document.getElementById('loading').style.display = 'none'; 
                 document.getElementById('overlay').classList.remove('active');
-
+                
+                // membuat isi dari khodams diacak secara random
                 const randomIndex = Math.floor(Math.random() * khodams.length);
                 const selectedKhodam = khodams[randomIndex];
 
@@ -48,7 +50,7 @@ const khodams = [
             }, 2000); 
         }
 
-        function resetGacha() {
+        function resetGacha() { 
             document.body.classList.add('fade-out');
             setTimeout(() => {
                 location.reload(); 
