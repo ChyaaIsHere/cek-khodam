@@ -12,7 +12,7 @@ const khodams = [
     { name: "Nyi Blorong", desc: "Nyi Blorong suka dateng tiba-tiba dan kadang bikin baper.. eh gak lama malah ninggalin yang udah dilaluin bareng bareng. jangan dibiasain bang." },
     { name: "Tumis Kangkung", desc: "Tumis Kangkung, sih, terkenal banget enaknya, tumis kangkungnya yg enak.. bukan lu nya.. lu nya mah bikin anak orang kit ati mulu. ancrit." },
     { name: "Jam Dinding Rusak", desc: "Si Jam Dinding ini, waktu terus aja muter, kadang cepat, kadang lama, kadang bikin bingung. lagian dipikirin. siapa suruh coba? emang dia mikirin lu?" },
-    { name: "Gunting Tumpul", desc: "Gunting Tumpul suka ngebleng, ngeblengnya kebangetan ebuset. contoh-contoh harddisknya udah penuh ya gni jadinya." },
+    { name: "Gunting Tumpul", desc: "Gunting Tumpul suka ngebleng, ngeblengnya kebangetan ebuset. contoh nya kek harddisk yang udah penuh. ya gtu dah jadinya." },
     { name: "Kasur Empuk", desc: "Lah ini mah hampir 9999999999 juta persen pada suka ini cok.. malah ada kayaknya yg jadiin ini hobi... sapa yak? 😭" },
     { name: "Penjaga Kulkas", desc: "Si Penjaga Kulkas ini selalu siap nemenin dia nyemil ampe tengah malam. padahal lu cuma jadi badutnya doang. yaelah, effort lu sia sia bang.." },
 ];
