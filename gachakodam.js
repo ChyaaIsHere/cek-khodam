@@ -1,7 +1,7 @@
 // data array dari kumpulan khodams 2024-2050 yang gege abies
 const khodams = [
     { name: "Macan Pemarah", desc: "Macan Pemarah tuh bawaannya pengen nyerang mulu, tapi gitu-gitu lucu juga. tapi kadang kadang, kiding kiding... au ah" },
-    { name: "Buaya Sunda", desc: "Buaya Sunda, matanya bisa bikin kamu ngerasa di bawah tekanan terus. tiati dah, lu tipe orang yang suka sama semua orang... dih jadi ngeri gua" },
+    { name: "Buaya Sunda", desc: "Buaya Sunda, matanya bisa bikin dia ngerasa di bawah tekanan terus. tiati dah kata gua mah, lu tipe orang yang suka sama semua orang... dih jadi ngeri gua" },
     { name: "Beruang Sunda", desc: "Beruang Sunda tuh gede bat, tapi bisa bikin lawan bicara lu meleleh dengan tingkahnya yang kayak...." },
     { name: "Harimau Birahi", desc: "Nah kalo yang ini tuh orangnya gamau diem, terus ngerasa pengen deketin terus, makanya jadi orang jan pikmi napa!" },
     { name: "Tutup Odol", desc: "Khodam ini emang kecil, sian amat. coba lagi gih, kasian gua sama lu kalo gua jelasin khodam ini apaan.. mending cari lagi dah." },
